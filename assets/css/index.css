@@ -1,0 +1,81 @@
+
+
+  .container {
+    max-width: 1200px;
+    margin: auto;
+  }
+  .logo-name{
+    font-size: 20px;
+    font-weight: 600;
+    color: #171818;
+    text-align: left;
+  }
+
+  .lgin-form{
+    margin-top: 120px;
+  }
+  
+  .login-container {
+    padding: 100px 170px 0px 65px !important;
+  }
+
+  .login-left {
+    background-color: #f7fafd;
+    padding: 50px;
+  }
+
+  .login-right {
+    background-color: #0d0066;
+  }
+
+  .login-heading {
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: #0d0066;
+    text-align: left;
+    font-size : 32px;
+    letter-spacing: 0px;
+    color: #0070FC;
+    opacity: 1;
+  }
+  .form-label {
+    text-align: left;
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #5F6368;
+    text-transform: capitalize;
+    opacity: 1;
+  }
+  .form-control::placeholder {
+    text-align: left;
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #1A1B38;
+    opacity: 0.5;
+  }
+  .form-control {
+    background: #FFFFFF ;
+    border: 1px solid #EDEEF4;
+    border-radius: 9px;
+    opacity: 1;
+  }
+  .form-check-input:checked {
+    background-color: #0d0066;
+    border-color: #0d0066;
+  }
+  .btn-custom {
+    background: #0E0071;
+    border: 1px solid #005DD1;
+    border-radius: 9px;
+    opacity: 1;
+    padding: 5px;
+    color: white;
+  }
+  .btn-custom:hover {
+    background-color: #100080;
+  }
+  .footer-links {
+    position: absolute;
+    bottom: 20px;
+    font-size: 14px;
+    color: #999;
+  }

@@ -1,0 +1,244 @@
+/* === Card Wrapper === */
+.card-warper {
+    background: #fff;
+    box-shadow: 0 3px 6px #00000029;
+    border-radius: 9px;
+    padding: 20px;
+    border: none;
+  }
+
+  .card-warper .table thead th {
+    background-color: #F7FAFF;
+    color: #333333;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.14px;
+    border-bottom: 1px solid #dee2e6;
+  }
+
+  .card-warper table td  {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    line-height: 23px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #020000;
+    opacity: 0.7;
+    padding-top: 12px;
+  }
+
+  .card-warper table th[scope="row"] {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    line-height: 23px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #020000;
+    opacity: 0.7;
+    padding: 0.5rem;
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  .table-heading{
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-14) / 16px var(--unnamed-font-family-alte-din-1451-mittelschrift-gepraegt);
+    color: var(--unnamed-color-5f6368);
+    text-align: left;
+    font: normal normal normal 14px / 16px Alte DIN 1451 Mittelschrift gepraegt;
+    letter-spacing: 0.14px;
+    color: #5F6368;
+    opacity: 1;
+  }
+  
+  
+  /* === Action Icon === */
+  .action-icon {
+
+    color: #0070fc;
+    cursor: pointer;
+  }
+  
+  /* === Section Item === */
+  .section-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 0;
+    margin: 15px 18px 15px 20px;
+    font-size: 16px;
+    color: #333;
+    background: #fff;
+  }
+  
+  .section-item span {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .section-item .action {
+    color: #ffaa00;
+    font-size: 12px;
+  }
+  
+  .section-item a {
+    text-decoration: none;
+  }
+  
+  .brand-selection {
+    background: none;
+    border: none;
+  }
+  
+ 
+
+  
+  /* === Section Card === */
+  .section-card {
+    box-shadow: 0 2px 6px #0070fc1f;
+    border-radius: 13px;
+    min-height: 295px;
+  }
+  
+  .section-card h6 {
+    background: #f7faff;
+    border-radius: 13px 13px 0 0;
+    padding: 14px;
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 0;
+  }
+
+  
+  
+  /* === Badge BG === */
+  .badge-bg {
+    background-color: #6571800a;
+    color: #657180 !important;
+  }
+  
+  /* === Count Arrow Wrap === */
+  .count-arrow-wrap {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+  }
+  
+  /* === Table Header === */
+  .custom-table thead th {
+    font-size: 14px;
+    color: #5f6368;
+    text-align: left;
+  }
+  
+  /* === Sidebar & Submenus === */
+  .sidebar .submenu {
+    display: none;
+    list-style: none;
+    padding-left: 15px;
+    margin-top: 5px;
+  }
+  
+  .sidebar .submenu.show {
+    display: block;
+  }
+  
+  .sidebar li a.drop-icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .sidebar .submenu li a {
+    padding: 8px 0;
+    display: block;
+    text-decoration: none;
+  }
+  
+  .sidebar .submenu li a:hover {
+    color: #0070fc;
+  }
+  
+  .sidebar li.active > a .material-symbols-outlined:last-child {
+    transform: rotate(180deg);
+    transition: transform 0.3s ease;
+  }
+  
+  .user-name{
+    text-align: left !important;
+    font-size: 18px !important;
+    letter-spacing: 0.43px !important;
+    color: #FFFFFF !important;
+    opacity: 1 !important;
+    margin-top: 5px !important;
+  }
+
+
+  .user-status{
+    height: 35px;
+    width: 33px;
+    background-color: #6464FF;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: larger;
+    border: 2px solid #A3A6EF;
+    border-radius: 9px;
+    opacity: 1;
+  }
+
+
+  .create-page-button{
+    background: #0070FC 0% 0% no-repeat padding-box;
+    border-radius: 9px;
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+    border: none;
+    padding: 9px;
+    max-width: 184px;
+    text-align: center;
+    width: 100%;
+  }
+
+
+
+.custom-pagination .page-link {
+    color: #333333;  
+    background-color: transparent;
+    border: none;
+    padding: 5px 10px;
+  }
+  
+  .custom-pagination .page-item.active .page-link {
+    background-color: #007bff;  
+    color: #ffffff;
+    border-radius: 4px;
+  }
+  
+  .custom-pagination .page-link:hover {
+    background-color: #e9ecef;  
+    border-radius: 4px;
+  }
+  
+  .custom-pagination .page-item:first-child .page-link,
+  .custom-pagination .page-item:last-child .page-link {
+    font-size: 18px;  
+  }
+  
+  .custom-pagination .page-item.disabled .page-link {
+    color: #cccccc;  
+  }
+
+
+  .custom-pagination li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
