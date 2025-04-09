@@ -1,81 +1,110 @@
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.logo-name {
+  font-size: 20px;
+  font-weight: 600;
+  color: #171818;
+  margin: 0;
+  text-align: left;
+}
 
 
-  .container {
-    max-width: 1200px;
-    margin: auto;
-  }
-  .logo-name{
-    font-size: 20px;
-    font-weight: 600;
-    color: #171818;
-    text-align: left;
-  }
+.login-right {
+  background-color: #08006e;
+  height: 100%;
+}
 
-  .lgin-form{
-    margin-top: 120px;
-  }
-  
-  .login-container {
-    padding: 100px 170px 0px 65px !important;
-  }
+.login-form {
+  display: flex;
+  justify-content: center;
+}
 
-  .login-left {
-    background-color: #f7fafd;
-    padding: 50px;
-  }
+.login-heading {
+  font-size: 32px;
+  font-weight: 700;
+  color: #0070FC;
+  letter-spacing: 0;
+  text-align: left;
+  opacity: 1;
+}
 
-  .login-right {
-    background-color: #0d0066;
-  }
+.form-label {
+  font-size: 14px;
+  color: #5F6368;
+  text-align: left;
+  text-transform: capitalize;
+  letter-spacing: 0;
+  opacity: 1;
+}
 
-  .login-heading {
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: #0d0066;
-    text-align: left;
-    font-size : 32px;
-    letter-spacing: 0px;
-    color: #0070FC;
-    opacity: 1;
-  }
-  .form-label {
-    text-align: left;
-    font-size: 14px;
-    letter-spacing: 0px;
-    color: #5F6368;
-    text-transform: capitalize;
-    opacity: 1;
-  }
-  .form-control::placeholder {
-    text-align: left;
-    font-size: 14px;
-    letter-spacing: 0px;
-    color: #1A1B38;
-    opacity: 0.5;
-  }
-  .form-control {
-    background: #FFFFFF ;
-    border: 1px solid #EDEEF4;
-    border-radius: 9px;
-    opacity: 1;
-  }
-  .form-check-input:checked {
-    background-color: #0d0066;
-    border-color: #0d0066;
-  }
-  .btn-custom {
-    background: #0E0071;
-    border: 1px solid #005DD1;
-    border-radius: 9px;
-    opacity: 1;
-    padding: 5px;
-    color: white;
-  }
-  .btn-custom:hover {
-    background-color: #100080;
-  }
-  .footer-links {
-    position: absolute;
-    bottom: 20px;
-    font-size: 14px;
-    color: #999;
-  }
+.form-control {
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 9px;
+  height: 45px;
+  font-size: 14px;
+  opacity: 1;
+}
+
+.form-control::placeholder {
+  font-size: 14px;
+  color: #1A1B38;
+  opacity: 0.5;
+}
+
+.input-group-text {
+  background-color: #fff;
+  border-left: 0;
+  border-radius: 0 9px 9px 0;
+  cursor: pointer;
+}
+
+.input-group .form-control {
+  border-right: 0;
+  border-radius: 9px 0 0 9px;
+}
+
+.form-check-input:checked {
+  background-color: #0d0066;
+  border-color: #0d0066;
+}
+
+.btn-custom {
+  background-color: #08006e;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border-radius: 9px;
+  padding: 12px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover {
+  background-color: #070060;
+}
+
+.footer-links {
+  bottom: 20px;
+  font-size: 14px;
+  color: #999;
+}
+
+.footer-links a {
+  font-size: 13px;
+  text-decoration: none;
+  color: #999;
+  margin-right: 12px;
+}
+
+.card-wraper {
+  height: 100%;
+  padding: 56px 71px;
+  max-width: 487px;
+  width: 100%;
+  /* margin: 20px 71px; */
+
+
+}
