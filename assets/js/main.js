@@ -51,3 +51,35 @@ document.querySelectorAll(".drop-icon").forEach(dropdown => {
     }
   });
 });
+
+
+
+
+
+  const fileInput = document.getElementById("formFile");
+  const defaultView = document.getElementById("defaultView");
+  const fileView = document.getElementById("fileView");
+  const fileNameText = document.getElementById("fileName");
+  const fileSizeText = document.getElementById("fileSize");
+
+  fileInput.addEventListener("change", function () {
+    const file = this.files[0];
+    if (file) {
+      // Show file details
+      fileNameText.textContent = file.name;
+      fileSizeText.textContent = Math.round(file.size / 1024) + " KB";
+
+      // Toggle views
+      defaultView.classList.add("d-none");
+      fileView.classList.remove("d-none");
+    }
+  });
+
+  function resetUpload() {
+    // Clear input
+    fileInput.value = "";
+
+    // Toggle back
+    fileView.classList.add("d-none");
+    defaultView.classList.remove("d-none");
+  }

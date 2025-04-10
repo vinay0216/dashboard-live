@@ -137,6 +137,7 @@
     list-style: none;
     padding-left: 15px;
     margin-top: 5px;
+    margin-left: 30px;
   }
   
   .sidebar .submenu.show {
@@ -241,4 +242,129 @@
     align-items: center;
   }
   
+  
+
+  .custom-modal {
+    border-radius: 1rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    padding: 9px;
+    max-width: 420px;
+  }
+
+  .modal-heading {
+    font-size: 20px;
+    font-size: 20px;
+    opacity: 0.8;
+  }
+  
+  .modal-subtitle {
+    font-size:  13px;
+    color: #657180;
+    opacity: 1;
+  }
+  
+
+  .modal-lable {
+    font-size: 16px;
+    opacity: 0.54;
+    font-weight: 500 !important;
+
+  }
+
+  .brand-select-input {
+    max-width: 344px !important;
+    width: 100% !important;
+    border: 1px solid #6370821A !important;
+    border-radius: 4px !important;
+    opacity: 1 !important;
+    font: normal normal normal 14px / 21px Poppins !important;
+    letter-spacing: 0px;
+  }
+  
+  .upload-box {
+    display: flex;
+    justify-content: center;
+    background-color: #F4FBFF;
+    border: 1px dashed #0070FC5A;
+    border-radius: 0.75rem;
+    /* padding: 2rem; */
+    padding: 25px 5px;
+    margin-top: 0.5rem;
+    max-width: 344px;
+  }
+
+  .uplode-box-inner{
+    max-width: 225px;
+  }
+  
+  .upload-title {
+    margin-top: 1rem;
+    margin-bottom: 0.25rem;
+    font-size: 14px;
+    letter-spacing: 0.14px;
+    color: #0E0071;
+    opacity: 1;
+  }
+  
+  .upload-subtitle {
+    font-size: 0.9rem;
+    color: #666;
+    text-align: center;
+    letter-spacing: 0px;
+    opacity: 1;
+  }
+  
+.button-coustom {
+  max-width: 96px;
+  width: 100%;
+  padding: 4px;
+  border: 1px solid #6370828A;
+  border-radius: 4px;
+  font-size: 16px;
+  letter-spacing: 0px;
+  color: #657180;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+.downlode-button{
+  max-width: 104px;
+  display: flex;
+  gap: 4px;
+  padding: 6px;
+  background: #F1F1F19A 0% 0% no-repeat padding-box;
+  border: 1px solid #A7A7A729;
+  border-radius: 6px;
+  text-align: left;
+  font-size: 13px;
+  letter-spacing: 0.13px;
+  color: #657180;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+.blue{
+  background-color: #1C0076;
+  color: #FFFFFF;
+}
+
+.downlode-icon-font{
+  font-size: 19px !important;
+}
+
+.data-lable {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 13px/var(--unnamed-line-spacing-19) var(--unnamed-font-family-poppins);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-657180);
+text-align: left;
+font: normal normal normal 13px/19px Poppins;
+letter-spacing: 0px;
+color: #657180;
+opacity: 1;
+}
+
+
+
+
+
   

@@ -24,14 +24,14 @@
       <div class="col-md-6 h-100">
         <div class="d-flex flex-column card-wraper justify-content-between">
         <div class="mb-4 d-flex gap-2 flex-column   justify-content-center ">
-          <div class="d-flex">
+          <div class="d-flex gap-2">
             <img src="/assets/images/log.svg" alt="Logo" style="height: 40px;">
-            <h1 class="logo-name">SingleInterface</h1>
+            <h1 class="logo-name mt-1">SingleInterface</h1>
           </div>
         </div>
   
         <div class="login-form ">
-          <form action="/" method="POST" class="w-100">
+          <form  class="w-100">
             <h3 class="login-heading mt-5 mb-4 ">Let’s Get Started</h3>
   
             <div class="mb-4">
@@ -55,7 +55,10 @@
               <a href="#" class="text-decoration-none text-primary">Forgot Password?</a>
             </div>
   
-            <button type="" href="dashboard.html" class="btn-custom w-100">SIGN IN</button>
+            <button type="button" class="btn-custom w-100" onclick="window.location.href='/dashboard.html'">
+              SIGN IN
+            </button>
+            
           </form>
         </div>
   
