@@ -252,8 +252,7 @@
   }
 
   .modal-heading {
-    font-size: 20px;
-    font-size: 20px;
+    font-size: 25px;
     opacity: 0.8;
   }
   
@@ -341,6 +340,7 @@
   color: #657180;
   text-transform: uppercase;
   opacity: 1;
+  margin-left: 140px;
 }
 
 .blue{
@@ -366,5 +366,36 @@ opacity: 1;
 
 
 
+.downlode-sample-button{
+  max-width: 404px;
+  display: flex;
+  gap: 4px;
+  padding: 6px;
+  background: #F1F1F19A 0% 0% no-repeat padding-box;
+  border: 1px solid #A7A7A729;
+  border-radius: 6px;
+  text-align: left;
+  font-size: 13px;
+  letter-spacing: 0.13px;
+  color: #657180;
+  text-transform: uppercase;
+  justify-content: center;
+  opacity: 1;
+}
+
+.brand-selection-card{
+  box-shadow: #0070FC1f 0px 0px 0px 1px;
+  border-radius: 13px;
+  min-width: 400px;
+}
+.sheet-formate-section{
+  /* box-shadow: #0070fc1f 0px 0px 0px 1px; */
+  /* border-radius: 13px; */
+  min-width: 400px;
+  align-items: center;
+  padding: 7px 0;
+  font-size: 16px;
+  color: #333;
+}
 
   
